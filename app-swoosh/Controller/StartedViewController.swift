@@ -1,5 +1,5 @@
 //
-//  IAMViewController.swift
+//  StartedViewController.swift
 //  app-swoosh
 //
 //  Created by Long, Nguyen Duc on 24/07/2023.
@@ -7,8 +7,7 @@
 
 import UIKit
 
-class IAMViewController: UIViewController {
-
+class StartedViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 

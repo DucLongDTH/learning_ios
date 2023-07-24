@@ -1,5 +1,5 @@
 //
-//  StartedViewController.swift
+//  LeagueViewController.swift
 //  app-swoosh
 //
 //  Created by Long, Nguyen Duc on 24/07/2023.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-class StartedViewController: UIViewController {
+class LeagueViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -15,6 +15,9 @@ class StartedViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+    @IBAction func onNextClick(_ sender: Any) {
+        performSegue(withIdentifier: "skillVCSegue", sender: self)
+    }
 
     /*
     // MARK: - Navigation

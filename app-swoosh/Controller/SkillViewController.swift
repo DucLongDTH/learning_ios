@@ -1,5 +1,5 @@
 //
-//  LeagueViewController.swift
+//  IAMViewController.swift
 //  app-swoosh
 //
 //  Created by Long, Nguyen Duc on 24/07/2023.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-class LeagueViewController: UIViewController {
+class SkillViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

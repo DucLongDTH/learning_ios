@@ -8,10 +8,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Started View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="app_swoosh" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="StartedViewController" customModule="app_swoosh" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -86,19 +86,15 @@
                     <navigationItem key="navigationItem" id="Gv6-jh-IAa">
                         <barButtonItem key="backBarButtonItem" title=" Hello" springLoaded="YES" style="plain" id="Y9t-NA-UD2"/>
                     </navigationItem>
-                    <connections>
-                        <outlet property="bgImg" destination="VmH-F1-dFy" id="tV0-aO-CBa"/>
-                        <outlet property="swoosh" destination="VmH-F1-dFy" id="F46-kS-VHc"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1925.9541984732823" y="-16.197183098591552"/>
         </scene>
-        <!--View Controller-->
+        <!--League View Controller-->
         <scene sceneID="izi-sE-Y1X">
             <objects>
-                <viewController id="JNH-az-7Ge" sceneMemberID="viewController">
+                <viewController id="JNH-az-7Ge" customClass="LeagueViewController" customModule="app_swoosh" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="seL-Ng-NVU">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -177,7 +173,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="eR1-Gu-h92" kind="show" id="SEh-tF-mxH"/>
+                                    <action selector="onNextClick:" destination="JNH-az-7Ge" eventType="touchUpInside" id="Hc2-Am-HrG"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -202,15 +198,18 @@
                     <navigationItem key="navigationItem" largeTitleDisplayMode="never" id="TX4-iV-1wJ">
                         <barButtonItem key="backBarButtonItem" title=" " style="plain" id="u3a-dj-9ek"/>
                     </navigationItem>
+                    <connections>
+                        <segue destination="eR1-Gu-h92" kind="show" identifier="skillVCSegue" id="q0D-c9-t1R"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PIg-XQ-i0b" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2654" y="-16"/>
         </scene>
-        <!--View Controller-->
+        <!--Skill View Controller-->
         <scene sceneID="4Dp-pw-MQz">
             <objects>
-                <viewController id="eR1-Gu-h92" customClass="IAMViewController" customModule="app_swoosh" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="eR1-Gu-h92" customClass="SkillViewController" customModule="app_swoosh" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="D78-CI-uhB">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -299,7 +298,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lp4-cc-HEA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3311" y="-16"/>
+            <point key="canvasLocation" x="3415" y="-16"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="j16-Gj-0IE">
