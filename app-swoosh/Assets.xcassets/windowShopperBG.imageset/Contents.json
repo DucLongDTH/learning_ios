@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "beginnerBallerBG.png",
+      "filename" : "windowShopperBG.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "beginnerBallerBG@2x.png",
+      "filename" : "windowShopperBG@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "beginnerBallerBG@3x.png",
+      "filename" : "windowShopperBG@3x.png",
       "idiom" : "universal",
       "scale" : "3x"
     }
