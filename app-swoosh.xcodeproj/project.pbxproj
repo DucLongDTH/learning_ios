@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		774992A42A700E800006C795 /* CurrencyTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 774992A32A700E800006C795 /* CurrencyTextField.swift */; };
 		77CBB95F2A6EBB21001B288F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77CBB95E2A6EBB21001B288F /* ViewController.swift */; };
 		959F57BF2A6A3CAE006DD653 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959F57BE2A6A3CAE006DD653 /* AppDelegate.swift */; };
 		959F57C12A6A3CAE006DD653 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959F57C02A6A3CAE006DD653 /* SceneDelegate.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		774992A32A700E800006C795 /* CurrencyTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyTextField.swift; sourceTree = "<group>"; };
 		77CBB95E2A6EBB21001B288F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		959F57BB2A6A3CAE006DD653 /* app-swoosh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "app-swoosh.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		959F57BE2A6A3CAE006DD653 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -90,6 +92,7 @@
 		959F57D52A6A639D006DD653 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				774992A32A700E800006C795 /* CurrencyTextField.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -168,6 +171,7 @@
 				77CBB95F2A6EBB21001B288F /* ViewController.swift in Sources */,
 				959F57BF2A6A3CAE006DD653 /* AppDelegate.swift in Sources */,
 				959F57C92A6A3CAE006DD653 /* app_swoosh.xcdatamodeld in Sources */,
+				774992A42A700E800006C795 /* CurrencyTextField.swift in Sources */,
 				959F57C12A6A3CAE006DD653 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
