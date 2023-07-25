@@ -1,13 +1,14 @@
 //
-//  StartedViewController.swift
+//  ViewController.swift
 //  app-swoosh
 //
-//  Created by Long, Nguyen Duc on 24/07/2023.
+//  Created by DucLong on 24/07/2023.
 //
 
 import UIKit
 
-class StartedViewController: UIViewController {
+class ViewController: UIViewController {
+
     override func viewDidLoad() {
         super.viewDidLoad()
 
