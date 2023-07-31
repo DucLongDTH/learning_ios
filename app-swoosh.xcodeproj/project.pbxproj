@@ -10,6 +10,9 @@
 		776591082A76994500B2FD6E /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776591072A76994500B2FD6E /* CategoryCell.swift */; };
 		7765910A2A769C8D00B2FD6E /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776591092A769C8D00B2FD6E /* Category.swift */; };
 		7765910D2A769DC200B2FD6E /* DataServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7765910C2A769DC200B2FD6E /* DataServices.swift */; };
+		77C6A7002A77E147004D6EE8 /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C6A6FF2A77E147004D6EE8 /* ProductCell.swift */; };
+		77C6A7022A77E24D004D6EE8 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C6A7012A77E24D004D6EE8 /* Product.swift */; };
+		77C6A7042A77E5C1004D6EE8 /* ProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C6A7032A77E5C1004D6EE8 /* ProductViewController.swift */; };
 		77CBB95F2A6EBB21001B288F /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77CBB95E2A6EBB21001B288F /* CategoryViewController.swift */; };
 		959F57BF2A6A3CAE006DD653 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959F57BE2A6A3CAE006DD653 /* AppDelegate.swift */; };
 		959F57C12A6A3CAE006DD653 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959F57C02A6A3CAE006DD653 /* SceneDelegate.swift */; };
@@ -23,6 +26,9 @@
 		776591072A76994500B2FD6E /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
 		776591092A769C8D00B2FD6E /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 		7765910C2A769DC200B2FD6E /* DataServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataServices.swift; sourceTree = "<group>"; };
+		77C6A6FF2A77E147004D6EE8 /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
+		77C6A7012A77E24D004D6EE8 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		77C6A7032A77E5C1004D6EE8 /* ProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductViewController.swift; sourceTree = "<group>"; };
 		77CBB95E2A6EBB21001B288F /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
 		959F57BB2A6A3CAE006DD653 /* app-swoosh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "app-swoosh.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		959F57BE2A6A3CAE006DD653 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +55,7 @@
 			isa = PBXGroup;
 			children = (
 				776591092A769C8D00B2FD6E /* Category.swift */,
+				77C6A7012A77E24D004D6EE8 /* Product.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -65,6 +72,7 @@
 			isa = PBXGroup;
 			children = (
 				77CBB95E2A6EBB21001B288F /* CategoryViewController.swift */,
+				77C6A7032A77E5C1004D6EE8 /* ProductViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -107,6 +115,7 @@
 			isa = PBXGroup;
 			children = (
 				776591072A76994500B2FD6E /* CategoryCell.swift */,
+				77C6A6FF2A77E147004D6EE8 /* ProductCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -184,10 +193,13 @@
 			files = (
 				77CBB95F2A6EBB21001B288F /* CategoryViewController.swift in Sources */,
 				7765910D2A769DC200B2FD6E /* DataServices.swift in Sources */,
+				77C6A7022A77E24D004D6EE8 /* Product.swift in Sources */,
 				959F57BF2A6A3CAE006DD653 /* AppDelegate.swift in Sources */,
 				959F57C92A6A3CAE006DD653 /* app_swoosh.xcdatamodeld in Sources */,
 				959F57C12A6A3CAE006DD653 /* SceneDelegate.swift in Sources */,
+				77C6A7002A77E147004D6EE8 /* ProductCell.swift in Sources */,
 				776591082A76994500B2FD6E /* CategoryCell.swift in Sources */,
+				77C6A7042A77E5C1004D6EE8 /* ProductViewController.swift in Sources */,
 				7765910A2A769C8D00B2FD6E /* Category.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
